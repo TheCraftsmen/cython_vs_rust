@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cython:
+    build: .
+    volumes:
+      - .:/code
+    command: bash -c "python3 main.py"

@@ -1,0 +1,5 @@
+.DS_Store
+*.c
+*.so
+build
+__pycache__
